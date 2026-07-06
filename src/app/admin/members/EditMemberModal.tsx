@@ -220,7 +220,7 @@ export default function EditMemberModal({ member, onClose, onSave }: EditMemberM
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label htmlFor="fatherName" className="block text-sm font-medium text-gray-700">
-                  Father's Name
+                  Father&apos;s Name
                 </label>
                 <input
                   id="fatherName"
@@ -233,7 +233,7 @@ export default function EditMemberModal({ member, onClose, onSave }: EditMemberM
               </div>
               <div>
                 <label htmlFor="motherName" className="block text-sm font-medium text-gray-700">
-                  Mother's Name
+                  Mother&apos;s Name
                 </label>
                 <input
                   id="motherName"
