@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 
 import { useState, FormEvent } from "react";
@@ -175,7 +176,7 @@ export default function LoginPage() {
             <p className="text-sm text-gray-600">
               {loginType === "user" ? (
                 <>
-                  {/* eslint-disable-next-line react/no-unescaped-entities */}{"Don't have an account?"}{" "}
+                  {"Don't have an account?"}{" "}
                   <Link href="/auth/register" className="font-medium text-indigo-600 hover:text-indigo-500">
                     Register as a member
                   </Link>

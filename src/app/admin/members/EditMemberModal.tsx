@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 
 import { useState, useEffect, FormEvent } from "react";
@@ -220,7 +221,6 @@ export default function EditMemberModal({ member, onClose, onSave }: EditMemberM
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label htmlFor="fatherName" className="block text-sm font-medium text-gray-700">
-                  {/* eslint-disable-next-line react/no-unescaped-entities */}
                   {"Father's Name"}
                 </label>
                 <input
@@ -234,7 +234,6 @@ export default function EditMemberModal({ member, onClose, onSave }: EditMemberM
               </div>
               <div>
                 <label htmlFor="motherName" className="block text-sm font-medium text-gray-700">
-                  {/* eslint-disable-next-line react/no-unescaped-entities */}
                   {"Mother's Name"}
                 </label>
                 <input
