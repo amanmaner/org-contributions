@@ -219,8 +219,9 @@ export default function EditMemberModal({ member, onClose, onSave }: EditMemberM
             <h4 className="text-md font-medium text-gray-900 mb-3">Parent Information</h4>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 <label htmlFor="fatherName" className="block text-sm font-medium text-gray-700">
-                  Father&apos;s Name
+                  {"Father's Name"}
                 </label>
                 <input
                   id="fatherName"
@@ -232,8 +233,9 @@ export default function EditMemberModal({ member, onClose, onSave }: EditMemberM
                 />
               </div>
               <div>
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 <label htmlFor="motherName" className="block text-sm font-medium text-gray-700">
-                  Mother&apos;s Name
+                  {"Mother's Name"}
                 </label>
                 <input
                   id="motherName"

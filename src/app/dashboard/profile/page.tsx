@@ -225,8 +225,9 @@ export default function UserProfilePage() {
                 <h3 className="text-lg font-medium text-gray-900 mb-4">Parent Information</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     <label htmlFor="fatherName" className="block text-sm font-medium text-gray-700">
-                      Father&apos;s Name
+                      {"Father's Name"}
                     </label>
                     <input
                       id="fatherName"
@@ -239,8 +240,9 @@ export default function UserProfilePage() {
                     />
                   </div>
                   <div>
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     <label htmlFor="motherName" className="block text-sm font-medium text-gray-700">
-                      Mother&apos;s Name
+                      {"Mother's Name"}
                     </label>
                     <input
                       id="motherName"
